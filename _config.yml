@@ -17,22 +17,22 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Starter Kit
+title:                 감자탈출일지
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  비전공자 감자에서 프론트엔드 주니어 개발자로 성장하는 과정.
+  왜 나는 개발자가 되어야만 하는가?
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               글잘쓰고 말잘하는 개발자
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [개발, 비전공자, javascript, HTML, CSS, 프론트엔드]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -40,10 +40,10 @@ keywords:              []
 logo:                  /assets/img/logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
-author:
+author: 감자
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Gyuwon Lee
+  email:               10014id@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
