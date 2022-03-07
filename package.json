@@ -1,35 +1,66 @@
 {
-  "name": "minimal-mistakes",
-  "private": true,
-  "version": "4.24.0",
-  "description": "Minimal Mistakes 2 column Jekyll theme.",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
-  },
-  "keywords": [
-    "jekyll",
-    "theme",
-    "minimal"
-  ],
-  "author": "Michael Rose",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
-  },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
-  "engines": {
-    "node": ">= 0.10.0"
+  "name": "zoomkoding.com",
+  "private": false,
+  "description": "A neat blog theme for developers",
+  "version": "2.0.0",
+  "author": "zoomkoding <zoomkoding@gmail.com>",
+  "dependencies": {
+    "@mui/icons-material": "^5.1.0",
+    "@mui/material": "^5.1.0",
+    "gatsby": "^3.12.1",
+    "gatsby-plugin-advanced-sitemap": "^2.0.0",
+    "gatsby-plugin-feed": "^3.13.0",
+    "gatsby-plugin-google-analytics": "^3.13.0",
+    "gatsby-plugin-image": "^1.14.0",
+    "gatsby-plugin-manifest": "^3.13.0",
+    "gatsby-plugin-offline": "^4.13.0",
+    "gatsby-plugin-react-helmet": "^4.13.0",
+    "gatsby-plugin-robots-txt": "^1.6.14",
+    "gatsby-plugin-sass": "^4.14.0",
+    "gatsby-plugin-sharp": "^3.13.0",
+    "gatsby-remark-autolink-headers": "^4.11.0",
+    "gatsby-remark-copy-linked-files": "^4.10.0",
+    "gatsby-remark-images": "^5.10.0",
+    "gatsby-remark-prismjs": "^5.10.0",
+    "gatsby-remark-responsive-iframe": "^4.10.0",
+    "gatsby-remark-smartypants": "^4.10.0",
+    "gatsby-remark-table-of-contents": "^1.0.0",
+    "gatsby-source-filesystem": "^3.13.0",
+    "gatsby-theme-material-ui": "^5.0.0",
+    "gatsby-transformer-remark": "^4.10.0",
+    "gatsby-transformer-sharp": "^3.13.0",
+    "prismjs": "^1.24.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-rotating-text": "^1.4.1",
+    "sass": "^1.43.4",
+    "typeface-montserrat": "^1.1.13"
   },
   "devDependencies": {
-    "npm-run-all": "^4.1.5",
-    "onchange": "^7.1.0",
-    "uglify-js": "^3.13.6"
+    "gh-pages": "^3.2.3",
+    "prettier": "2.2.1"
   },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme"
+  ],
+  "license": "0BSD",
   "scripts": {
-    "uglify": "uglifyjs assets/js/vendor/jquery/jquery-3.5.1.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.ba-throttle-debounce.js assets/js/plugins/smooth-scroll.js assets/js/plugins/gumshoe.js assets/js/_main.js -c -m -o assets/js/main.min.js",
-    "add-banner": "node banner.js",
-    "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
-    "build:js": "npm run uglify && npm run add-banner"
+    "build": "gatsby clean && gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "deploy": "gatsby clean && gatsby build && gh-pages -d public",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoomkoding/zoomkoding-gatsby-blog"
+  },
+  "bugs": {
+    "url": "https://github.com/zoomkoding/zoomkoding-gatsby-blog/issues"
   }
 }
