@@ -19109,9 +19109,9 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "name": "zoomkoding.com",
-    "short_name": "zoomkoding.com",
-    "description": "줌코딩의 개발일기",
+    "name": "gyutato",
+    "short_name": "gyutato",
+    "description": "기술이 언어가 되는 곳",
     "lang": "en",
     "display": "standalone",
     "start_url": "/",
