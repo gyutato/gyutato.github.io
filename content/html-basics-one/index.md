@@ -3,8 +3,8 @@ emoji: 🌱
 title: HTML 기본 개념과 태그
 date: '2021-12-21 22:04:12'
 author: 규자
-tags: tutorial
-categories: tutorial
+tags: tutorial TIL
+categories: tutorial TIL
 ---
 
 ### 💡 HTML은 구조, CSS는 꾸미기 !
