@@ -64,191 +64,130 @@
         }
       }
     })
-  </script><title data-react-helmet="true">HTML 기본 개념과 태그</title><meta data-react-helmet="true" name="viewport" content="initial-scale=1, width=device-width"/><meta data-react-helmet="true" property="og:title" content="HTML 기본 개념과 태그"/><meta data-react-helmet="true" property="og:site_title" content="HTML 기본 개념과 태그"/><meta data-react-helmet="true" name="description" content="💡 HTML은 구조, CSS는 꾸미기 ! 1. 부모 요소와 자식 요소 2. 글자와 상자 3. HTML 핵심 요소(태그) 정리 4. HTML 문서 작성 시 유의사항과 유용한 툴 1. 부모와 자식 요소 상위(조상), 하위(후손)요소는 각각 부모와 자식 요소를 포함하게 됨. 단 부모와 자식 요소는 바로 윗 요소 / 바로 아랫 요소  2. 글자와 상자 ✅ 글자 - 인라인()요소 요소가 수평으로 쌓임 (자체 높이나 넓이를 가지지 않고, 최대한 줄어들려고 함) 포함한 콘텐츠 크기만큼 자동으로 줄어들려고 함 가로세로 사이즈를 가질 수 없음 CSS로도 지정할 수 없음 여백의 경우 좌우는 가능하지만 상하 여백은 불가 하위 요소로 블록 요소를 가질 수 없음 ✅ 상자 - 블록(Block) 요소 요소가 수직으로 쌓임: 가로는 부모 요소의 크기만큼 자동으로 늘어남, 세로는 포함한 콘텐츠 크기만큼 자동으로 줄어들려고 함 단, 가로세로 사이즈를 CSS로 설정해 줌으로서 크기를 지정할 수 있음 하위 요소로 블…"/><meta data-react-helmet="true" property="og:description" content="💡 HTML은 구조, CSS는 꾸미기 ! 1. 부모 요소와 자식 요소 2. 글자와 상자 3. HTML 핵심 요소(태그) 정리 4. HTML 문서 작성 시 유의사항과 유용한 툴 1. 부모와 자식 요소 상위(조상), 하위(후손)요소는 각각 부모와 자식 요소를 포함하게 됨. 단 부모와 자식 요소는 바로 윗 요소 / 바로 아랫 요소  2. 글자와 상자 ✅ 글자 - 인라인()요소 요소가 수평으로 쌓임 (자체 높이나 넓이를 가지지 않고, 최대한 줄어들려고 함) 포함한 콘텐츠 크기만큼 자동으로 줄어들려고 함 가로세로 사이즈를 가질 수 없음 CSS로도 지정할 수 없음 여백의 경우 좌우는 가능하지만 상하 여백은 불가 하위 요소로 블록 요소를 가질 수 없음 ✅ 상자 - 블록(Block) 요소 요소가 수직으로 쌓임: 가로는 부모 요소의 크기만큼 자동으로 늘어남, 세로는 포함한 콘텐츠 크기만큼 자동으로 줄어들려고 함 단, 가로세로 사이즈를 CSS로 설정해 줌으로서 크기를 지정할 수 있음 하위 요소로 블…"/><meta data-react-helmet="true" property="og:author" content="이규원"/><meta data-react-helmet="true" property="og:image" content="/og-image.png"/><meta data-react-helmet="true" property="og:type" content="website"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"/><style>@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxM.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc-.woff) format("woff")}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><link as="script" rel="preload" href="/webpack-runtime-9c3f6f0feb85721e2e99.js"/><link as="script" rel="preload" href="/framework-0e1bf37de02f7cef2174.js"/><link as="script" rel="preload" href="/app-0cfefa033cf511e62407.js"/><link as="script" rel="preload" href="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js"/><link as="script" rel="preload" href="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"/><link as="fetch" rel="preload" href="/page-data/html-basics-one/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1073350324.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1956554647.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2938748437.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="page-wrapper"><header class="page-header-wrapper"><div class="page-header"><div class="front-section"><a class="link" href="/">gyutato</a></div><div class="trailing-section"><a class="link" href="/about">about</a><a class="link" href="/posts">posts</a><div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-1l6di18" role="combobox" aria-expanded="false"><div class="search-input-wrapper"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root search-input css-feqhe6"><div class="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-11tfndm"><input type="text" aria-invalid="false" autoComplete="off" value="" class="MuiInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mnn31" aria-autocomplete="list" autoCapitalize="none" spellcheck="false"/><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium search-icon css-vubbuv" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="SearchOutlinedIcon"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></div></div></div></div></div></div></header><main class="page-content"><header class="post-header"><div class="emoji">🌱</div><div class="info"><div class="categories"><a class="category" href="/posts/tutorial">tutorial</a><a class="category" href="/posts/TIL">TIL</a></div></div><h1 class="title">HTML 기본 개념과 태그</h1><div class="info"><div class="author">posted by <strong>규자</strong>,</div> <!-- -->December 21, 2021</div></header><div class="post-content"><div class="markdown"><h3 id="-html은-구조-css는-꾸미기-" style="position:relative;"><a href="#-html%EC%9D%80-%EA%B5%AC%EC%A1%B0-css%EB%8A%94-%EA%BE%B8%EB%AF%B8%EA%B8%B0-" aria-label=" html은 구조 css는 꾸미기  permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>💡 HTML은 구조, CSS는 꾸미기 !</h3>
-<br/>
-<p><a href="#1-%EB%B6%80%EB%AA%A8%EC%99%80-%EC%9E%90%EC%8B%9D-%EC%9A%94%EC%86%8C">1. 부모 요소와 자식 요소</a></p>
-<p><a href="#2-%EA%B8%80%EC%9E%90%EC%99%80-%EC%83%81%EC%9E%90">2. 글자와 상자</a></p>
-<p><a href="#3-html-%ED%95%B5%EC%8B%AC-%EC%9A%94%EC%86%8C-%EC%A0%95%EB%A6%AC">3. HTML 핵심 요소(태그) 정리</a></p>
-<p><a href="#4-html-%EC%9E%91%EC%84%B1-%EC%8B%9C%EC%9D%98-%EA%B8%B0%ED%83%80-%EC%9C%A0%EC%9D%98%EC%82%AC%ED%95%AD">4. HTML 문서 작성 시 유의사항과 유용한 툴</a></p>
-<br/>
-<h2 id="1-부모와-자식-요소" style="position:relative;"><a href="#1-%EB%B6%80%EB%AA%A8%EC%99%80-%EC%9E%90%EC%8B%9D-%EC%9A%94%EC%86%8C" aria-label="1 부모와 자식 요소 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. 부모와 자식 요소</h2>
-<ul>
-<li>상위(조상), 하위(후손)요소는 각각 부모와 자식 요소를 포함하게 됨.
-<ul>
-<li>단 부모와 자식 요소는 바로 윗 요소 / 바로 아랫 요소</li>
-</ul>
-</li>
-</ul>
-<p><br/><br/></p>
-<h2 id="2-글자와-상자" style="position:relative;"><a href="#2-%EA%B8%80%EC%9E%90%EC%99%80-%EC%83%81%EC%9E%90" aria-label="2 글자와 상자 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. 글자와 상자</h2>
-<h3 id="-글자---인라인code-classlanguage-textinlinecode요소" style="position:relative;"><a href="#-%EA%B8%80%EC%9E%90---%EC%9D%B8%EB%9D%BC%EC%9D%B8code-classlanguage-textinlinecode%EC%9A%94%EC%86%8C" aria-label=" 글자   인라인code classlanguage textinlinecode요소 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✅ 글자 - 인라인(<code class="language-text">inline</code>)요소</h3>
-<ul>
-<li>요소가 수평으로 쌓임 (자체 높이나 넓이를 가지지 않고, 최대한 줄어들려고 함)
-<ul>
-<li>포함한 콘텐츠 크기만큼 자동으로 줄어들려고 함</li>
-</ul>
-</li>
-<li>가로세로 사이즈를 가질 수 없음
-<ul>
-<li>CSS로도 지정할 수 없음</li>
-</ul>
-</li>
-<li>여백의 경우 좌우는 가능하지만 상하 여백은 불가</li>
-<li>하위 요소로 블록 요소를 가질 수 없음</li>
-</ul>
-<div class="gatsby-highlight" data-language="html"><pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- span 태그: --></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">></span></span> 본질적으로 아무것도 나타내지 않는, 콘텐츠 영역을 설정하는 용도 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span></code></pre></div>
-<h3 id="-상자---블록block-요소" style="position:relative;"><a href="#-%EC%83%81%EC%9E%90---%EB%B8%94%EB%A1%9Dblock-%EC%9A%94%EC%86%8C" aria-label=" 상자   블록block 요소 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✅ 상자 - 블록(Block) 요소</h3>
-<ul>
-<li>요소가 수직으로 쌓임: 가로는 부모 요소의 크기만큼 자동으로 늘어남, 세로는 포함한 콘텐츠 크기만큼 자동으로 줄어들려고 함</li>
-<li>단, 가로세로 사이즈를 CSS로 설정해 줌으로서 크기를 지정할 수 있음</li>
-<li>하위 요소로 블록과 인라인 요소 모두 가질 수 있음</li>
-</ul>
-<div class="gatsby-highlight" data-language="html"><pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- div 태그: --></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span> 본질적으로 아무것도 나타내지 않는, 콘텐츠 영역을 설정하는 용도 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre></div>
-<br/>
-<h2 id="3-html-핵심-요소-정리" style="position:relative;"><a href="#3-html-%ED%95%B5%EC%8B%AC-%EC%9A%94%EC%86%8C-%EC%A0%95%EB%A6%AC" aria-label="3 html 핵심 요소 정리 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. HTML 핵심 요소 정리</h2>
-<h3 id="-블록-요소" style="position:relative;"><a href="#-%EB%B8%94%EB%A1%9D-%EC%9A%94%EC%86%8C" aria-label=" 블록 요소 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✅ 블록 요소</h3>
-<ul>
-<li>
-<p><code class="language-text">&lt;div></code> : 특별한 의미가 없는 구분을 위한 요소</p>
-</li>
-<li>
-<p><code class="language-text">&lt;h1></code> ~ <code class="language-text">&lt;h6></code>: 제목 <br/></p>
-<blockquote>
-<p><code class="language-text">&lt;h1></code>: <h1> 너무 커서 저는 잘 쓰지 않습니다 </h1></p>
+  </script><title data-react-helmet="true">CSS 속성(4)</title><meta data-react-helmet="true" name="viewport" content="initial-scale=1, width=device-width"/><meta data-react-helmet="true" property="og:title" content="CSS 속성(4)"/><meta data-react-helmet="true" property="og:site_title" content="CSS 속성(4)"/><meta data-react-helmet="true" name="description" content="📌 박스 모델, 글꼴, 문자, 배경, 배치, 플렉스(정렬), 전환, 변환, 띄움, 애니메이션, 그리드, 다단, 필터 등 📌 코드로 작성되어 있는 속성을 보고 머릿속으로 어떻게 그려질 지 생각해보는 연습이 중요하다. 1.  요소의 전환(시작과 끝) 효과를 지정하는 단축 속성 가상 선택자가 아닌 요소 원본을 제어하는 CSS 부분에 명시해주어야 함! ✅ 개별 속성 : 속성명 기본값: , 해당 요소의 모든 속성에 적용 속성이름을 명시하여 전환 효과를 사용할 속성 이름을 따로 명시할 수 있음 (ex. 다른 속성은 모두 제외하고 요소의 가로 너비에만 전환 효과가 들어갔으면 좋겠어!) : 타이밍함수 기본값: , 느리게-빠르게-느리게 , , ,  등  값을 사용하여 직접 제어할 수도 있음 (어려움) 📌 CSS easing functions cheat sheet, easing functions mdn📌 Tweenmax easing - greensock.com : 대기시간 기본값:  2.  요소의 …"/><meta data-react-helmet="true" property="og:description" content="📌 박스 모델, 글꼴, 문자, 배경, 배치, 플렉스(정렬), 전환, 변환, 띄움, 애니메이션, 그리드, 다단, 필터 등 📌 코드로 작성되어 있는 속성을 보고 머릿속으로 어떻게 그려질 지 생각해보는 연습이 중요하다. 1.  요소의 전환(시작과 끝) 효과를 지정하는 단축 속성 가상 선택자가 아닌 요소 원본을 제어하는 CSS 부분에 명시해주어야 함! ✅ 개별 속성 : 속성명 기본값: , 해당 요소의 모든 속성에 적용 속성이름을 명시하여 전환 효과를 사용할 속성 이름을 따로 명시할 수 있음 (ex. 다른 속성은 모두 제외하고 요소의 가로 너비에만 전환 효과가 들어갔으면 좋겠어!) : 타이밍함수 기본값: , 느리게-빠르게-느리게 , , ,  등  값을 사용하여 직접 제어할 수도 있음 (어려움) 📌 CSS easing functions cheat sheet, easing functions mdn📌 Tweenmax easing - greensock.com : 대기시간 기본값:  2.  요소의 …"/><meta data-react-helmet="true" property="og:author" content="이규원"/><meta data-react-helmet="true" property="og:image" content="/og-image.png"/><meta data-react-helmet="true" property="og:type" content="website"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"/><style>@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxM.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc-.woff) format("woff")}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><link as="script" rel="preload" href="/webpack-runtime-9c3f6f0feb85721e2e99.js"/><link as="script" rel="preload" href="/framework-0e1bf37de02f7cef2174.js"/><link as="script" rel="preload" href="/app-0cfefa033cf511e62407.js"/><link as="script" rel="preload" href="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js"/><link as="script" rel="preload" href="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"/><link as="fetch" rel="preload" href="/page-data/css-properties-four/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1073350324.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1956554647.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2938748437.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="page-wrapper"><header class="page-header-wrapper"><div class="page-header"><div class="front-section"><a class="link" href="/">gyutato</a></div><div class="trailing-section"><a class="link" href="/about">about</a><a class="link" href="/posts">posts</a><div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-1l6di18" role="combobox" aria-expanded="false"><div class="search-input-wrapper"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root search-input css-feqhe6"><div class="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-11tfndm"><input type="text" aria-invalid="false" autoComplete="off" value="" class="MuiInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mnn31" aria-autocomplete="list" autoCapitalize="none" spellcheck="false"/><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium search-icon css-vubbuv" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="SearchOutlinedIcon"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></div></div></div></div></div></div></header><main class="page-content"><header class="post-header"><div class="emoji">🌱</div><div class="info"><div class="categories"><a class="category" href="/posts/tutorial">tutorial</a><a class="category" href="/posts/TIL">TIL</a></div></div><h1 class="title">CSS 속성(4)</h1><div class="info"><div class="author">posted by <strong>규자</strong>,</div> <!-- -->December 28, 2021</div></header><div class="post-content"><div class="markdown"><blockquote>
+<p>📌 박스 모델, 글꼴, 문자, 배경, 배치, 플렉스(정렬), 전환, 변환, 띄움, 애니메이션, 그리드, 다단, 필터 등</p>
 </blockquote>
-<p><code class="language-text">&lt;h2></code>: <h2> 숫자가 높아질수록 제목 중요도(+글자크기)가 낮아집니다 </h2>
-<code class="language-text">&lt;h3></code>: <h3> 중간~소제목으로 적당한 것 같습니다 </h3>
-<code class="language-text">&lt;h4></code>: <h4> 소제목 정도의 크기일까요? </h4>
-<code class="language-text">&lt;h5></code>: <h5> 너무 작아서 제목의 역할을 제대로 하지 못하는 것 같습니다 </h5>
-<code class="language-text">&lt;h6></code>: <h6> 너무 작군요 </h6></p>
-</li>
-<li>
-<p><code class="language-text">&lt;p></code>: 문단(paragraph)를 의미</p>
-</li>
-<li>
-<p><code class="language-text">&lt;ul></code>: unordered list, 순서가 필요없는 목록의 집합(구분점)</p>
+<blockquote>
+<p>📌 코드로 작성되어 있는 속성을 보고 머릿속으로 어떻게 그려질 지 생각해보는 연습이 중요하다.</p>
+</blockquote>
+<br/>
+<h2 id="1-code-classlanguage-texttransitioncode" style="position:relative;"><a href="#1-code-classlanguage-texttransitioncode" aria-label="1 code classlanguage texttransitioncode permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. <code class="language-text">transition</code></h2>
 <ul>
-<li>자식 요소로 반드시 <code class="language-text">&lt;li></code> 태그를 한 개 이상 가져야 함</li>
+<li>요소의 <strong>전환</strong>(시작과 끝) 효과를 지정하는 <strong>단축 속성</strong></li>
+<li><u>가상 선택자가 아닌 요소 원본을 제어하는 CSS 부분에 명시해주어야 함!</u></li>
+</ul>
+<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token comment">/* 
+transition: [속성명] [지속시간] [타이밍함수] [대기시간]; 
+이 때 지속시간은 반드시 명시해주어야 함.
+*/</span>
+<span class="token selector">div</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> tomato<span class="token punctuation">;</span>
+    <span class="token property">transition</span><span class="token punctuation">:</span> 
+        width 1s<span class="token punctuation">,</span>
+        background-color 2s<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">div:hover</span> <span class="token punctuation">{</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> royalblue<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h4 id="-개별-속성" style="position:relative;"><a href="#-%EA%B0%9C%EB%B3%84-%EC%86%8D%EC%84%B1" aria-label=" 개별 속성 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✅ 개별 속성</h4>
+<ul>
+<li>
+<p><code class="language-text">transition-property</code>: 속성명</p>
+<ul>
+<li>기본값: <code class="language-text">all</code>, 해당 요소의 모든 속성에 적용</li>
+<li>속성이름을 명시하여 전환 효과를 사용할 속성 이름을 따로 명시할 수 있음 (ex. 다른 속성은 모두 제외하고 요소의 가로 너비에만 전환 효과가 들어갔으면 좋겠어!)</li>
 </ul>
 </li>
 <li>
-<p><code class="language-text">&lt;li></code>: 목록 내 각 항목(List Item)</p>
+<p><code class="language-text">transition-timing-function</code>: 타이밍함수</p>
 <ul>
-<li>반드시 <code class="language-text">&lt;ul></code> 태그가 부모 요소로 감싸고 있어야 함 <br/></li>
+<li>기본값: <code class="language-text">ease</code>, 느리게-빠르게-느리게</li>
+<li><code class="language-text">linear</code>, <code class="language-text">ease-in</code>, <code class="language-text">ease-out</code>, <code class="language-text">ease-in-out</code> 등</li>
+<li><code class="language-text">cubic-bezier()</code> 값을 사용하여 직접 제어할 수도 있음 (어려움)</li>
+</ul>
+</li>
 </ul>
 <blockquote>
-<ul> 순서 없는 과일 목록(<code>ul</code>-<code>li</code>) <li>사과</li> <li>오렌지</li> </ul>
-<ol> 순서 있는 과일 목록(<code>ol</code>-<code>li</code>) <li>사과</li> <li>오렌지</li> </ol>
+<p>📌 CSS easing functions cheat sheet, easing functions mdn<br/>📌 Tweenmax easing - greensock.com</p>
 </blockquote>
-</li>
-</ul>
-<h3 id="-인라인-요소" style="position:relative;"><a href="#-%EC%9D%B8%EB%9D%BC%EC%9D%B8-%EC%9A%94%EC%86%8C" aria-label=" 인라인 요소 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✅ 인라인 요소</h3>
 <ul>
-<li><code class="language-text">&lt;span></code>: 특별한 의미가 없는 구분을 위한 요소</li>
-<li><code class="language-text">&lt;img [src] [alt]/></code>: 이미지 삽입에 쓰이는 요소</li>
-<li><code class="language-text">&lt;a></code>: 페이지를 이동하는 하이퍼링크를 지정하는 요소 (Anchor)</li>
-<li><code class="language-text">&lt;br/></code>: 줄바꿈(break) 요소</li>
-</ul>
-<p>인라인-블록 요소</p>
+<li><code class="language-text">transition-delay</code>: 대기시간
 <ul>
-<li><code class="language-text">&lt;input [type] [value/placeholder] [diabled]/></code>: 사용자가 데이터를 입력하는 요소
-<ul>
-<li>입력받을 데이터의 타입(<code class="language-text">type</code>) 및 미리 입력되어져 있을 값(<code class="language-text">value</code>), 커서를 두면 사라지는 힌트(<code class="language-text">placeholder</code>)등을 지정할 수 있음</li>
-<li>인라인 요소처럼 수평으로 쌓임</li>
-<li>블록 요소처럼 가로세로 값 등을 가질 수 있음</li>
-</ul>
-</li>
-<li><code class="language-text">&lt;label></code>: 라벨 가능 요소 (주로 input)의 제목
-<ul>
-<li><code class="language-text">input type=“checkbox”</code> 일 때 해당 체크박스가 어떤 값인지 표시하는 것이 <code class="language-text">&lt;label></code> <br/></li>
+<li>기본값: <code class="language-text">0s</code></li>
 </ul>
 </li>
 </ul>
-<div class="gatsby-highlight" data-language="html"><pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>checkbox<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>Apple
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span>
-: apple 여부를 표시하는 체크박스가 됨.</code></pre></div>
 <br/>
-<h2 id="4-html-작성-시의-기타-유의사항" style="position:relative;"><a href="#4-html-%EC%9E%91%EC%84%B1-%EC%8B%9C%EC%9D%98-%EA%B8%B0%ED%83%80-%EC%9C%A0%EC%9D%98%EC%82%AC%ED%95%AD" aria-label="4 html 작성 시의 기타 유의사항 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4. HTML 작성 시의 기타 유의사항</h2>
-<h3 id="-이미지-불러오기---상대경로와-절대-경로" style="position:relative;"><a href="#-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0---%EC%83%81%EB%8C%80%EA%B2%BD%EB%A1%9C%EC%99%80-%EC%A0%88%EB%8C%80-%EA%B2%BD%EB%A1%9C" aria-label=" 이미지 불러오기   상대경로와 절대 경로 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✅ 이미지 불러오기 - 상대경로와 절대 경로</h3>
+<h2 id="2-code-classlanguage-texttransformcode" style="position:relative;"><a href="#2-code-classlanguage-texttransformcode" aria-label="2 code classlanguage texttransformcode permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. <code class="language-text">transform</code></h2>
 <ul>
-<li>
-<p>상대 경로</p>
+<li>요소의 <strong>변환 효과</strong></li>
+</ul>
+<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token comment">/* 
+transform: [변환함수1] [변환함수2] [변환함수3]...;
+원근법, 이동, 크리, 회전, 기울임 등
+*/</span>
+<span class="token selector">div</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> tomato<span class="token punctuation">;</span>
+    <span class="token property">transform</span><span class="token punctuation">:</span>
+        <span class="token function">rotate</span><span class="token punctuation">(</span>45deg<span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token function">scale</span><span class="token punctuation">(</span>1.3<span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h4 id="-2차원-변환-함수" style="position:relative;"><a href="#-2%EC%B0%A8%EC%9B%90-%EB%B3%80%ED%99%98-%ED%95%A8%EC%88%98" aria-label=" 2차원 변환 함수 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✅ 2차원 변환 함수</h4>
 <ul>
-<li><code class="language-text">./</code>: 주변(동일 계층), 생략가능</li>
-<li><code class="language-text">../</code>: 상위 폴더</li>
+<li><code class="language-text">translate(x, y)</code>, <code class="language-text">translateX(x)</code>, <code class="language-text">translateY(y)</code>
+<ul>
+<li>X축 또는 Y축 이동</li>
+<li>px등의 단위를 사용해 값 입력</li>
 </ul>
 </li>
-<li>
-<p>절대 경로</p>
+<li><code class="language-text">scale(x, y)</code>
 <ul>
-<li><code class="language-text">/</code>: 루트 디렉토리(루트 경로), 최상위 경로</li>
-<li>http, https로 시작하는 웹주소 역시 절대경로 (어떤 기기에서 접속하든 동일한 주소를 사용하므로)</li>
+<li>X축 및 Y축 방향 크기 제어</li>
 </ul>
 </li>
-<li>
-<p>📌 절대경로에서의 루트 디렉토리가 어디인지 파악하는 것은 필수!</p>
+<li><code class="language-text">rotate(degree)</code>: 회전</li>
+<li><code class="language-text">skewX(x)</code>, <code class="language-text">skewY(y)</code>: X축 또는 Y축 기울임</li>
+</ul>
+<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">div:hover</span> <span class="token punctuation">{</span>
+    <span class="token property">transform</span><span class="token punctuation">:</span>
+        <span class="token function">transformX</span><span class="token punctuation">(</span>40px<span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token function">scale</span><span class="token punctuation">(</span>1.5<span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token function">rotate</span><span class="token punctuation">(</span>45deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h4 id="-3차원-변환-함수" style="position:relative;"><a href="#-3%EC%B0%A8%EC%9B%90-%EB%B3%80%ED%99%98-%ED%95%A8%EC%88%98" aria-label=" 3차원 변환 함수 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✅ 3차원 변환 함수</h4>
 <ul>
-<li>VScode를 사용하여 <code class="language-text">Live Server</code> 등의 개발 서버를 이용 중인 경우, <code class="language-text">폴더 열기</code>를 통해 열려 있는 폴더가 곧 루트 디렉토리가 된다. 내가 작업하고 있는 index.html이 해당 폴더에 있지 않고 하위 디렉토리 어딘가에 있다면, 절대경로를 사용했을 때 엉뚱한 폴더로 이동하게 된다.</li>
+<li><code class="language-text">rotateX(x)</code>, <code class="language-text">rotateY(y)</code>
+<ul>
+<li>X축 또는 Y축 회전</li>
 </ul>
 </li>
+<li><code class="language-text">perspective(n)</code>: 원근법(거리)</li>
 </ul>
-<h3 id="-codepenio" style="position:relative;"><a href="#-codepenio" aria-label=" codepenio permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✅ codepen.io</h3>
-<ul>
-<li>html 문서의 body태그 안에 코딩하는 것과 같이 테스트 가능.</li>
-</ul>
-<h3 id="-브라우저-스타일-초기화" style="position:relative;"><a href="#-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%B4%88%EA%B8%B0%ED%99%94" aria-label=" 브라우저 스타일 초기화 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✅ 브라우저 스타일 초기화</h3>
-<ul>
-<li>각 브라우저에 따라 body 등 기본 태그에 사전 설정된 스타일이 각기 다를 수 있음.</li>
-<li><code class="language-text">reset-css</code> CDN 파일을 외부에서 가져와 연결함으로써 브라우저 스타일을 초기화함.
-<ul>
-<li>이때, 사용자가 연결한 css 파일보다 먼저 실행되어, 초기화된 상태의 브라우저 상에서 css파일이 작동할 수 있도록 <strong>해당 문서의 사용자 CSS <code class="language-text">link</code>의 상단</strong>에 작성</li>
-</ul>
-</li>
-</ul>
-<h3 id="-emmet이란" style="position:relative;"><a href="#-emmet%EC%9D%B4%EB%9E%80" aria-label=" emmet이란 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✅ emmet이란?</h3>
-<ul>
-<li>태그 이름만 작성하여 자동완성하는 것.</li>
-<li><code class="language-text">태그이름.클래스이름</code> 으로 작성하면 태그에 클래스가 달린 채로도 완성 가능</li>
-<li>CSS 선택자를 활용하면 효율적인 HTML 문서 작성이 가능! <br/></li>
-</ul>
+<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">div:hover</span> <span class="token punctuation">{</span>
+    <span class="token property">transform</span><span class="token punctuation">:</span>
+        <span class="token comment">/* perspective 함수는 반드시 제일 앞에 작성해야 3D 회전 시 원근법이 반영됨 */</span>
+        <span class="token function">perspective</span><span class="token punctuation">(</span>500px<span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token function">rotate</span><span class="token punctuation">(</span>45deg<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token comment">/* 2D 회전, 시계 또는 반시계방향 회전 */</span>
+        <span class="token function">rotateX</span><span class="token punctuation">(</span>45deg<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token comment">/* 3D 회전, 축을 기준으로 3차원 회전 */</span>
+<span class="token punctuation">}</span></code></pre></div>
 <blockquote>
-<p>💡 궁금증: <br/>그럼 두 개 이상의 css 파일이 동일한 태그에 대한 스타일을 지정하고 있을 때 어떤 css 파일이 브라우저상에 보여지는지?</p>
+<p>📌 <code class="language-text">perspective</code> 속성과 함수의 차이 <br/>속성: <code class="language-text">transform: perspective(600px)</code> <br/>함수: <code class="language-text">perspective: 600px;</code> <br/><strong>함수</strong>의 경우 원근 거리가 관찰 대상(transform 요소)의 정가운데를 기준으로 결정되며, <strong>속성</strong>의 경우에는 거리가 관찰 대상의 <strong>부모</strong>를 기준으로 결정된다. 여러 요소의 원근법을 통일감 있게 제어하기 위해서는 perspective <strong>속성</strong>을 통해 부모 요소에 원근 거리를 부여하는 것이 권장된다.</p>
 </blockquote>
-<div class="table-of-contents">
+<h2 id="3-기타-변환-관련-속성" style="position:relative;"><a href="#3-%EA%B8%B0%ED%83%80-%EB%B3%80%ED%99%98-%EA%B4%80%EB%A0%A8-%EC%86%8D%EC%84%B1" aria-label="3 기타 변환 관련 속성 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. 기타 변환 관련 속성</h2>
 <ul>
-<li>
+<li><code class="language-text">backface-visibility</code>
 <ul>
-<li><a href="#-html%EC%9D%80-%EA%B5%AC%EC%A1%B0-css%EB%8A%94-%EA%BE%B8%EB%AF%B8%EA%B8%B0-">💡 HTML은 구조, CSS는 꾸미기 !</a></li>
-</ul>
-</li>
-<li>
-<p><a href="#1-%EB%B6%80%EB%AA%A8%EC%99%80-%EC%9E%90%EC%8B%9D-%EC%9A%94%EC%86%8C">1. 부모와 자식 요소</a></p>
-</li>
-<li>
-<p><a href="#2-%EA%B8%80%EC%9E%90%EC%99%80-%EC%83%81%EC%9E%90">2. 글자와 상자</a></p>
+<li>3D 회전(<code class="language-text">rotateX</code>, <code class="language-text">rotateY</code>)으로 인해 뒤집어진 요소의 뒷면이 보여지게 될 때, 화면에 출력할지 여부를 결정
 <ul>
-<li><a href="#-%EA%B8%80%EC%9E%90---%EC%9D%B8%EB%9D%BC%EC%9D%B8inline%EC%9A%94%EC%86%8C">✅ 글자 - 인라인(<code class="language-text">inline</code>)요소</a></li>
-<li><a href="#-%EC%83%81%EC%9E%90---%EB%B8%94%EB%A1%9Dblock-%EC%9A%94%EC%86%8C">✅ 상자 - 블록(Block) 요소</a></li>
-</ul>
-</li>
-<li>
-<p><a href="#3-html-%ED%95%B5%EC%8B%AC-%EC%9A%94%EC%86%8C-%EC%A0%95%EB%A6%AC">3. HTML 핵심 요소 정리</a></p>
-<ul>
-<li><a href="#-%EB%B8%94%EB%A1%9D-%EC%9A%94%EC%86%8C">✅ 블록 요소</a></li>
-<li><a href="#-%EC%9D%B8%EB%9D%BC%EC%9D%B8-%EC%9A%94%EC%86%8C">✅ 인라인 요소</a></li>
-</ul>
-</li>
-<li>
-<p><a href="#4-html-%EC%9E%91%EC%84%B1-%EC%8B%9C%EC%9D%98-%EA%B8%B0%ED%83%80-%EC%9C%A0%EC%9D%98%EC%82%AC%ED%95%AD">4. HTML 작성 시의 기타 유의사항</a></p>
-<ul>
-<li><a href="#-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0---%EC%83%81%EB%8C%80%EA%B2%BD%EB%A1%9C%EC%99%80-%EC%A0%88%EB%8C%80-%EA%B2%BD%EB%A1%9C">✅ 이미지 불러오기 - 상대경로와 절대 경로</a></li>
-<li><a href="#-codepenio">✅ codepen.io</a></li>
-<li><a href="#-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%B4%88%EA%B8%B0%ED%99%94">✅ 브라우저 스타일 초기화</a></li>
-<li><a href="#-emmet%EC%9D%B4%EB%9E%80">✅ emmet이란?</a></li>
+<li>기본값: <code class="language-text">visible</code></li>
+<li><code class="language-text">hidden</code> 값을 통해 뒷면은 출력되지 않도록 제어할 수 있음. 요소가 사라지는 것은 아니고 단지 시각적으로 보이지 않을 뿐!</li>
 </ul>
 </li>
 </ul>
-</div></div></div><div class="post-navigator"><div class="post-navigator-card-wrapper"></div><div class="post-navigator-card-wrapper"><a class="post-card next" href="/css-basics-one/"><div class="direction">다음 글</div><div class="title">CSS 기본 문법 (+ HTML 전역 속성)</div></a></div></div><div class="utterances"></div></main><footer class="page-footer-wrapper"><p class="page-footer">© <!-- -->2022<!-- --> <a href="https://github.com/gyutato">이규원</a> powered by<a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog"> zoomkoding-gatsby-blog</a></p></footer><div class="dark-mode-button-wrapper"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium dark-mode-button css-1yxmbwk" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge dark-mode-icon css-6flbmm" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="DarkModeIcon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"></path></svg></button></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/html-basics-one/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-cd840d73727c2e366b63.js"],"app":["/app-0cfefa033cf511e62407.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-3c26d4b7e3608ed0ece4.js"],"component---src-pages-404-js":["/component---src-pages-404-js-4917da7ef5b541e98a81.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b5804eba3d16afcb3700.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bc882cd03f70c89c8148.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-fea460fedd50cffb10cd.js"]};/*]]>*/</script><script src="/polyfill-cd840d73727c2e366b63.js" nomodule=""></script><script src="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js" async=""></script><script src="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js" async=""></script><script src="/app-0cfefa033cf511e62407.js" async=""></script><script src="/framework-0e1bf37de02f7cef2174.js" async=""></script><script src="/webpack-runtime-9c3f6f0feb85721e2e99.js" async=""></script></body></html>
+</li>
+</ul></div></div><div class="post-navigator"><div class="post-navigator-card-wrapper"><a class="post-card prev" href="/css-properties-three/"><div class="direction">이전 글</div><div class="title">CSS 속성(3)</div></a></div><div class="post-navigator-card-wrapper"><a class="post-card next" href="/SaSS-concept/"><div class="direction">다음 글</div><div class="title">SaSS 기본과 필요성 (CSS와의 차이)</div></a></div></div><div class="utterances"></div></main><footer class="page-footer-wrapper"><p class="page-footer">© <!-- -->2022<!-- --> <a href="https://github.com/gyutato">이규원</a> powered by<a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog"> zoomkoding-gatsby-blog</a></p></footer><div class="dark-mode-button-wrapper"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium dark-mode-button css-1yxmbwk" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge dark-mode-icon css-6flbmm" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="DarkModeIcon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"></path></svg></button></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/css-properties-four/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-cd840d73727c2e366b63.js"],"app":["/app-0cfefa033cf511e62407.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-3c26d4b7e3608ed0ece4.js"],"component---src-pages-404-js":["/component---src-pages-404-js-4917da7ef5b541e98a81.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b5804eba3d16afcb3700.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bc882cd03f70c89c8148.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-fea460fedd50cffb10cd.js"]};/*]]>*/</script><script src="/polyfill-cd840d73727c2e366b63.js" nomodule=""></script><script src="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js" async=""></script><script src="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js" async=""></script><script src="/app-0cfefa033cf511e62407.js" async=""></script><script src="/framework-0e1bf37de02f7cef2174.js" async=""></script><script src="/webpack-runtime-9c3f6f0feb85721e2e99.js" async=""></script></body></html>
