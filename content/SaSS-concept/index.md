@@ -1,23 +1,23 @@
 ---
 emoji: 🌱
-title: SaSS 기본과 필요성 (CSS와의 차이)
+title: [CSS] SaSS 기본과 필요성 (CSS와의 차이)
 date: '2021-12-29 22:04:12'
 author: 규자
-tags: tutorial TIL
-categories: tutorial TIL
+tags: Basics CSS SaSS SCSS markup style nesting
+categories: Basics HTML/CSS
 ---
 > 📌 Syntactically Awesome StyleSheets!<br/> 대규모 스타일시트를 잘 구조화하여 사용할 수 있도록 효율셩을 향상시켜준다. 
 
 <br/>
 
 ## 1. CSS / Sass(Scss)
-#### 📌 CSS 코드가 한 파일로 제작된다면?
+### 🤔 CSS 코드가 한 파일로 제작된다면?
 - 가독성 저하: 어디서부터 어디까지 어떤 스타일을 담당하고 있는지 파악하기 어려움 (네스팅 불가)
 - 중복 코드 혹은 레거시 코드를 생성하기 쉬움
 - 단순 수정에도 전체 코드를 일일히 확인해야 함
 - 프로젝트가 커질수록 단순 CSS로는 작업하는 속도가 느려짐
     - **즉, Sass(Scss) 개발은 선택이 아닌 필수가 되어가고 있음**
-```
+```css
 /* css */
 
 p {
@@ -32,7 +32,7 @@ a:hover, a:focus {
     color: blue;
 }
 ```
-```
+```scss
 /* Scss */
 
 p
@@ -51,7 +51,7 @@ a
 <br/>
 
 ## 2. Sass(Scss) 7-1 패턴
-> 💡 파일명에 `_`가 붙는 경우 `@import`되어 사용될 것으로 파악
+💡 파일명에 `_`가 붙는 경우 `@import`되어 사용될 것으로 파악
 - `sass/`
     - `abstracts/`
         - 변수, 함수, 믹스인 등 추상화되어야 할 것들

@@ -1,17 +1,11 @@
 ---
 emoji: 🌱
-title: CSS 속성(3)
+title: [CSS] CSS 속성(3) "플렉스"
 date: '2021-12-27 22:04:12'
 author: 규자
-tags: tutorial TIL
-categories: tutorial TIL
+tags: Basics CSS HTML properties flex container align
+categories: Basics HTML/CSS
 ---
-
-> 📌 박스 모델, 글꼴, 문자, 배경, 배치, 플렉스(정렬), 전환, 변환, 띄움, 애니메이션, 그리드, 다단, 필터 등
-
-> 📌 코드로 작성되어 있는 속성을 보고 머릿속으로 어떻게 그려질 지 생각해보는 연습이 중요하다.
-
-<br/>
 
 ## 1. 플렉스(정렬) 컨테이너
 - 1차원 레이아웃에서 **수직 정렬**을 **수평 정렬**로 전환

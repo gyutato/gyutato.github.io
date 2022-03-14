@@ -1,24 +1,18 @@
 ---
 emoji: 🌱
-title: CSS 속성(4)
+title: [CSS} CSS 속성(4) "트랜지션"
 date: '2021-12-28 22:04:12'
 author: 규자
-tags: tutorial TIL
-categories: tutorial TIL
+tags: Basics HTML CSS transition transform
+categories: Basics HTML/CSS
 ---
-
-> 📌 박스 모델, 글꼴, 문자, 배경, 배치, 플렉스(정렬), 전환, 변환, 띄움, 애니메이션, 그리드, 다단, 필터 등
-
-> 📌 코드로 작성되어 있는 속성을 보고 머릿속으로 어떻게 그려질 지 생각해보는 연습이 중요하다.
-
-<br/>
 
 ## 1. `transition`
 - 요소의 **전환**(시작과 끝) 효과를 지정하는 **단축 속성**
 - <u>가상 선택자가 아닌 요소 원본을 제어하는 CSS 부분에 명시해주어야 함!</u>
 ```css
 /* 
-transition: [속성명] [지속시간] [타이밍함수] [대기시간]; 
+transition: {속성명} {지속시간} {타이밍함수} {대기시간}; 
 이 때 지속시간은 반드시 명시해주어야 함.
 */
 div {
