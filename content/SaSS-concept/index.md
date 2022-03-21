@@ -1,6 +1,6 @@
 ---
 emoji: 🌱
-title: [CSS] SaSS 기본과 필요성 (CSS와의 차이)
+title: \[CSS]\ SaSS 기본과 필요성 (CSS와의 차이)
 date: '2021-12-29 22:04:12'
 author: 규자
 tags: Basics CSS SaSS SCSS markup style nesting

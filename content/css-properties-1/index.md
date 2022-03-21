@@ -1,6 +1,6 @@
 ---
 emoji: 🌱
-title: [CSS] CSS 속성
+title: \[CSS]\ CSS 속성
 date: '2021-12-23 22:04:12'
 author: 규자
 tags: Basics CSS 마크업 HTML

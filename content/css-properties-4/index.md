@@ -1,6 +1,6 @@
 ---
 emoji: 🌱
-title: [CSS] CSS 속성(4) "트랜지션"
+title: \[CSS]\ CSS 속성(4) "트랜지션"
 date: '2021-12-28 22:04:12'
 author: 규자
 tags: Basics HTML CSS transition transform

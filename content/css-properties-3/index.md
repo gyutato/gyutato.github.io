@@ -1,6 +1,6 @@
 ---
 emoji: 🌱
-title: [CSS] CSS 속성(3) "플렉스"
+title: \[CSS]\ CSS 속성(3) "플렉스"
 date: '2021-12-27 22:04:12'
 author: 규자
 tags: Basics CSS HTML properties flex container align
