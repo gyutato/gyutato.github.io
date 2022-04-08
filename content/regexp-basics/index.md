@@ -4,7 +4,7 @@ title: (JavaScript) 정규표현식 개념과 문법
 date: '2021-12-30 22:04:12'
 author: 규자
 tags: JavaScript Regexp 정규표현식
-categories: JS/TS
+categories: JavaScript frontend
 ---
 
 ## 정규표현식이란?

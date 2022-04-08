@@ -4,7 +4,7 @@ title: (C) 포인터 벼락치기 3. 포인터와 배열
 date: '2022-04-05 23:06:12'
 author: 규자
 tags: C
-categories: C 42Seoul FEATURED
+categories: C 42Seoul
 ---
 
 ## ⭐️ 배열과 포인터 ⭐️

@@ -4,7 +4,7 @@ title: (C) 포인터 벼락치기 5. 포인터와 배열의 자료형
 date: '2022-04-06 11:06:12'
 author: 규자
 tags: C
-categories: C 42Seoul FEATURED
+categories: C 42Seoul
 ---
 
 ## 🤷‍♀️ 배열 포인터는 왜 필요한가?
