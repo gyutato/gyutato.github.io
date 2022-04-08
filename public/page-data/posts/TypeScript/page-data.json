@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/TypeScript",
+    "result": {"pageContext":{"currentCategory":"TypeScript","categories":["All","C","42Seoul","frontend","TypeScript","JavaScript"],"edges":[{"node":{"id":"11e752b2-7b1b-507e-824e-be4cb794f666","excerpt":"🤔 TypeScript란? 마이크로소프트에서 구현한 JavaScript의 슈퍼셋(Superset) 프로그래밍 언어. 확장자로는 .ts를 사용하며, 컴파일의 결과물로 JavaScript 코드를 출력한다. 최종적으로 런타임에서는 이렇게 출력된 JavaScript 코드를 구동시키게 된다. 🤦‍♀️ 그게 무슨 소린가요? 타입스크립트는 한마디로 자바스크립트를 기반으로 ‘타입’을 부여한 언어다.\n즉 자바스크립트의 확장판 개념의 언어로 먼저 자바스크립트에 대한 선수 지식이 필수적이다. 타입스크립트는 “컴파일의 결과물로 JavaScript 코드를 출력한다.”이는 브라우저에서 타입스크립트 파일을 실행하기 위해서는 plain JavaScript로 파일을 한 번 변환하는 과정이 필요하다는 뜻이며, 이것을 이라고 부른다. 다만 전통적인 컴파일 언어들과 비교했을 때에는 비교적 다른 점이 많아, 이라는 용어를 사용하기도 한다. 한편, 자바스크립트는 컴파일 또는 트랜스파일 언어가 아닌 인터프리터 언어다. Comp…","fields":{"slug":"/typescript-concept/"},"frontmatter":{"categories":"TypeScript frontend","title":"(TypeScript) 개념과 초기 실행","date":"December 31, 2021"}},"next":{"fields":{"slug":"/regexp-basics/"}},"previous":{"fields":{"slug":"/SCSS-grammar/"}}}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
