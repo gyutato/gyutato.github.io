@@ -1,10 +1,10 @@
 ---
 emoji: 🌱
-title: HTML 기본 개념과 태그
+title: (HTML) 기본 개념과 태그
 date: '2021-12-21 22:04:12'
 author: 규자
-tags: Basics HTML markup 마크업
-categories: Basics HTML/CSS
+tags: HTML markup 마크업
+categories: FE-basics
 ---
 
 ## 1. 부모와 자식 요소

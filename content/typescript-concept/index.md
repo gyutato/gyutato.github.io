@@ -1,10 +1,10 @@
 ---
 emoji: 🌱
-title: TypeScript 개념과 초기 실행
+title: (TypeScript) 개념과 초기 실행
 date: '2021-12-31 22:04:12'
 author: 규자
 tags: Basics TypeScript
-categories: Basics TypeScript
+categories: JS/TS
 ---
 
 ## 🤔 TypeScript란?

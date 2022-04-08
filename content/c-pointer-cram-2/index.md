@@ -1,10 +1,10 @@
 ---
 emoji: 🌱
-title: C 포인터 벼락치기 (2) 포인터의 타입과 상수 포인터
+title: (C) 포인터 벼락치기 2. 포인터의 타입과 상수 포인터
 date: '2022-04-04 23:04:15'
 author: 규자
-tags: Basics C pointer 포인터 상수포인터
-categories: Basics C 42Seoul
+tags: C pointer 포인터 상수포인터
+categories: C 42Seoul FEATURED
 ---
 
 ## 🧬 포인터의 타입

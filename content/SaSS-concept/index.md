@@ -1,10 +1,10 @@
 ---
 emoji: 🌱
-title: SaSS 기본과 필요성 (CSS와의 차이)
+title: (SaSS) 기본과 필요성 (CSS와의 차이)
 date: '2021-12-29 22:04:12'
 author: 규자
 tags: Basics CSS SaSS SCSS markup style nesting
-categories: Basics HTML/CSS
+categories: FE-basics
 ---
 > 📌 Syntactically Awesome StyleSheets!<br/> 대규모 스타일시트를 잘 구조화하여 사용할 수 있도록 효율셩을 향상시켜준다. 
 

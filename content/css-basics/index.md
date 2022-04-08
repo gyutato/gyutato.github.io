@@ -1,10 +1,10 @@
 ---
 emoji: 🌱
-title: CSS 기본 문법 (+ HTML 전역 속성)
+title: (CSS) 기본 문법 (+ HTML 전역 속성)
 date: '2021-12-22 22:04:12'
 author: 규자
-tags: Basics HTML/CSS Markup 마크업
-categories: Basics HTML/CSS
+tags: HTML/CSS Markup 마크업
+categories: FrontEnd
 ---
 
 ## 1. 선택자{속성: 값;}

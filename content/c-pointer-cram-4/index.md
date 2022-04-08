@@ -1,10 +1,10 @@
 ---
 emoji: 🌱
-title: C 포인터 벼락치기 (4) 이중 포인터와 배열 포인터
+title: (C) 포인터 벼락치기 4. 이중 포인터와 배열 포인터
 date: '2022-04-05 23:08:12'
 author: 규자
-tags: Basics C
-categories: Basics C 42Seoul
+tags: C
+categories: C 42Seoul FEATURED
 ---
 
 ## ⭐️ 포인터 정리하기 ⭐️

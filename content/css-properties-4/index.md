@@ -1,10 +1,10 @@
 ---
 emoji: 🌱
-title: CSS 속성(4) "트랜지션"
+title: (CSS) 속성 4. 트랜지션(transition)
 date: '2021-12-28 22:04:12'
 author: 규자
-tags: Basics HTML CSS transition transform
-categories: Basics HTML/CSS
+tags: HTML CSS transition transform
+categories: frontend
 ---
 
 ## 1. `transition`

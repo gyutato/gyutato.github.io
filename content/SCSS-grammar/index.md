@@ -1,12 +1,12 @@
 ---
 emoji: 🌱
-title: SCSS 반복문, 함수 그리고 재활용
+title: (SCSS) 반복문, 함수 그리고 재활용
 date: '2022-01-04 22:04:12'
 author: 규자
 tags: Basics CSS SaSS SCSS markup style nesting
-categories: Basics HTML/CSS
+categories: FE-basics
 ---
-> 📌 @for, @mixin, @function 등 코드의 재활용성을 높이는 키워드를 통해 vanilla CSS보다 훨씬 간결한 스타일 코드를 작성해 보자.
+> 📌 `@for`, `@mixin`, `@function` 등 코드의 재활용성을 높이는 키워드를 통해 vanilla CSS보다 훨씬 간결한 스타일 코드를 작성해 보자.
 
 <br/>
 
