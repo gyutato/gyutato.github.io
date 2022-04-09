@@ -1,7 +1,7 @@
 ---
 emoji: 🌱
 title: (C) 문자열 리터럴의 수정과 메모리 할당
-date: '2022-04-09 23:08:12'
+date: '2022-04-09 14:08:12'
 author: 규자
 tags: Basics C
 categories: Basics C 42Seoul
@@ -16,7 +16,7 @@ int i = 0;
 while(i++ < 1000000)
     char *test = "hello"
 ```
-위의 코드처럼 문자열을 마구 사용하면 1,000,000개의 "hello" 가 DATA 영역에 올라갈까? 스택오버플로우에서 이를 질문한 게시글을 찾았고, 답변은 다음곽 같았다:
+위의 코드처럼 문자열을 마구 사용하면 1,000,000개의 "hello" 가 DATA 영역에 올라갈까? 스택오버플로우에서 이를 질문한 게시글을 찾았고, 답변은 다음과 같았다:
 
 > In some situations, string literals need to be translated to static arrays of characters. This happens at compile time. Your loop cannot allocate the static memory a million times; it's just not possible. A static variable can only be allocated once.
 
