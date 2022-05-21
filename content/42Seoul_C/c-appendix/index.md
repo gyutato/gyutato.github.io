@@ -1,3 +1,12 @@
+---
+emoji: 🌱
+title: (C) 라피신 직전 C 벼락치기 기록
+date: '2022-04-02 23:06:12'
+author: 규자
+tags: C pointer function
+categories: C 42Seoul
+---
+
 C 관련 읽어보면 좋을 자료들
 
 1. 모두의 코드 씹어먹는 C 언어 (큰 줄기를 잡기에 좋음)
