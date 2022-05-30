@@ -4,7 +4,7 @@ title: (CSS) 속성 4. 트랜지션(transition)
 date: '2021-12-28 22:04:12'
 author: 규자
 tags: HTML CSS transition transform
-categories: frontend
+categories: frontend css/html
 ---
 
 ## 1. `transition`

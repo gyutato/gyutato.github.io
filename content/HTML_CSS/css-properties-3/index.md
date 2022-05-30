@@ -4,7 +4,7 @@ title: (CSS) 속성 3. 플렉스(flex)
 date: '2021-12-27 22:04:12'
 author: 규자
 tags: CSS HTML properties flex container align
-categories: frontend
+categories: frontend css/html
 ---
 
 ## 1. 플렉스(정렬) 컨테이너

@@ -4,7 +4,7 @@ title: (Python) 코드업 기초 100제 6051 ~ 6098
 date: '2022-05-20 15:17:12'
 author: 규자
 tags: Basics 알고리즘 PS 코딩테스트 코테 백준 코드업 파이썬
-categories: Problem Solving
+categories: PS
 ---
 
 ![solved](./img1.png)
@@ -13,6 +13,7 @@ categories: Problem Solving
 
 > 📌 [코드업 기초 100제 6001 ~ 6050](https://gyutato.github.io/Algorithm/Codeup/Basic100_1) 에서 이어지는 글입니다.
 
+<br/>
 
 ## 04. 기초 - 논리연산
 
@@ -191,3 +192,6 @@ print(day)
             - 열을 고정하고 행을 움직이고 싶으면 `y`를 조작해야 한다.
         - 각 리스트를 한 **열**로 생각할 수도 있다. 
         - 출력할 때 어떤 식으로 할지 생각해 보고 알아서 하면 되지 않을까? 근데 보통 그럴 일이 잘 없을 것 같다.
+
+```toc
+```

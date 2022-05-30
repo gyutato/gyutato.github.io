@@ -4,7 +4,7 @@ title: (CSS) 속성 1. property basics
 date: '2021-12-23 22:04:12'
 author: 규자
 tags: CSS 마크업 HTML
-categories: frontend
+categories: frontend css/html
 ---
 
 🙌 박스 모델, 글꼴, 문자, 배경, 배치, 플렉스(정렬), 전환, 변환, 띄움, 애니메이션, 그리드, 다단, 필터 등 속성 정리!

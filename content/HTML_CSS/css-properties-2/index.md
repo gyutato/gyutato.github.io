@@ -4,7 +4,7 @@ title: (CSS) 속성 2. 문자 및 배경 제어
 date: '2021-12-26 22:04:12'
 author: 규자
 tags: HTML/CSS text-align z-index
-categories: frontend
+categories: frontend css/html
 ---
 
 ## 1. 문자 제어
