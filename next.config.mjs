@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
+
+// TODO: basePath not working at github actions
 const nextConfig = {
   output: "export",
-  basePath: "/blog",
 };
 
 export default nextConfig;
